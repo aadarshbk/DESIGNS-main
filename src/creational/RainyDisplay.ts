@@ -1,4 +1,4 @@
-import { WeatherDisplay } from './WeatherDisplay';
+import { WeatherDisplay } from '../WeatherDisplay';
 import { WeatherData } from '../../WeatherData';
 
 export class RainyDisplay implements WeatherDisplay {

@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Environment variables
+.env
+
+# Typescript
+*.tsbuildinfo
+
+# Compiled JavaScript
+dist/
+build/
+*.js
+*.js.map
+
+# Debugging/Profiling
+.vscode/
+.idea/
+
+# Ignore test coverage
+coverage/
+
+# Ignore .DS_Store (Mac)
+.DS_Store
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+*.tmp

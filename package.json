@@ -1,12 +1,22 @@
 {
-  "name": "designs",
+  "name": "designs-main",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A project demonstrating design patterns",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "DESIGNS-MAIN": "npm run build && npm run start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "design-patterns",
+    "typescript",
+    "node.js"
+  ],
+    
+
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "ts-node": "^10.0.0"
+  }
 }

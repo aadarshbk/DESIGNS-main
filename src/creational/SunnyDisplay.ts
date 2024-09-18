@@ -1,5 +1,5 @@
 
-import { WeatherDisplay } from './WeatherDisplay'; 
+import { WeatherDisplay } from '../creational
 import { WeatherData } from '../../WeatherData';   
 
 export class SunnyDisplay implements WeatherDisplay {
